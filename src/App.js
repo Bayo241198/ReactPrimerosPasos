@@ -7,7 +7,7 @@ import { CreateTodoButton } from "./CreateTodoButton";
 //import './App.css';
 
 const todos = [
-  { text: "Cortar cebolla", completed: false},
+  { text: "Cortar cebolla", completed: true},
   { text: "Tomar curso de react", completed: false},
   { text: "Llorar con la llorona", completed: false},
   { text: "hola", completed: false}
@@ -22,7 +22,10 @@ function App() {
       
       <TodoList>
         {todos.map(todo => (
-          <TodoItem key={todo.text} text={todo.text}/>
+          <TodoItem 
+            key={todo.text} 
+            text={todo.text}
+            completed={todo.completed}/> //Esto es una propiedad, no un atributo porque no es una etiqueta HTML es un componente REACT
         ))}
       </TodoList>
 

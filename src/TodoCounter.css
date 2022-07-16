@@ -1,6 +1,64 @@
-.TodoCounter{
-    font-size: 24px;
+.TodoCounter-titulo{
+    position: absolute;
+    left: 82px;
+    top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    /* identical to box height */
+
     text-align: center;
-    margin: 0;
-    padding: 48px;
+}
+
+.TodoCounter-elipse{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 18px;
+    top: 17px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.TodoCounter-subtituloHoy{
+    /* Hoy */
+    position: absolute;
+    width: 47px;
+    height: 29px;
+    left: 18px;
+    top: 89px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.TodoCounter-tareasHoy{
+
+    /* 3 Tareas */
+
+
+    position: absolute;
+    width: 58px;
+    height: 17px;
+    left: 18px;
+    top: 118px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
 }

@@ -1,0 +1,18 @@
+.CreateTodoButton{    
+    margin-left: auto;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    right: 20px;
+    top: 89px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border-style: none;
+
+    color: #4044C9;
+}
