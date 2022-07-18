@@ -1,11 +1,43 @@
 .TodoItem{
-    background-color: #FAFAFA;
+    background-color: #4044C9;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 15px;
     box-shadow: 0px 5px 5px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+}
+
+.TodoItemComplete{
+    background-color: #FFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    box-shadow: 0px 5px 5px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+}
+
+.TodoItem-h6{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4044C9;
+    transform: rotate(-90deg);
+}
+
+.TodoItem-h6--complete{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4044C9;
+    transform: rotate(-90deg);
 }
 
 .TodoItem-p{
@@ -14,10 +46,11 @@
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
+    color: #FFFF;
 }
 
 .TodoItem-p--complete{
-    text-decoration: line-through;
+    color: #4044C9;
 }
 
 .Icon{
@@ -33,7 +66,7 @@
 
 .Icon-check{
     position: absolute;
-    left: 12px;
+    left: 20px;
 }
 
 .Icon-check--active{
@@ -42,5 +75,5 @@
 
 .Icon-delete{
     position: relative;
-    top: -24px;
+    top: -15px;
 }

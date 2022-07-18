@@ -5,7 +5,7 @@ const imagen = "https://scontent.flpb2-1.fna.fbcdn.net/v/t39.30808-6/273432272_4
 function TodoCounter(){
     return(
         <div>
-            <h2 className="TodoCounter-titulo">Hola Bryan, haz completado 2 de 3 TODOs</h2>
+            <h2 className="TodoCounter-titulo">Hola Bryan, completaste 2 de 3 TODOs</h2>
             <img src={imagen} alt="foto"/>
             <p className="TodoCounter-subtituloHoy">Hoy</p>
             <p className="TodoCounter-tareasHoy">3 tareas</p>
