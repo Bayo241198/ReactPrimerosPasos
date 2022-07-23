@@ -1,6 +1,5 @@
 import React from "react";
 import './TodoList.css';
-import { TodoSearch } from "./TodoSearch";
 
 function TodoList(props){
     return(
@@ -10,7 +9,6 @@ function TodoList(props){
                 <p className="TodoListFechaLiteral">Lun</p>
                 <p className="TodoListTareasPlanteadas">Total: 8 horas al día</p>
             </div>
-            <TodoSearch/>
             <ul>
                 {props.children}
             </ul>
